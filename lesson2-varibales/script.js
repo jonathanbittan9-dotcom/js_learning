@@ -45,8 +45,9 @@
 
 
 
-
 let fullname = "human";
 let age = 25;
 let student = false;
-document.getElementById( )
+document.getElementById(`p1`).textContent = `Your full name is: ${fullname}`;
+document.getElementById(`p2`).textContent = `You are: ${age} years old`;
+document.getElementById(`p3`).textContent =  `You are a student: ${student}`;
